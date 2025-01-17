@@ -1,0 +1,202 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbar{
+    padding: 8px;
+    margin: 0;
+    
+}
+#logo{
+    height: 50px;
+    width: 200px;
+}
+#banner{
+    object-fit: cover;
+}
+h1{
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline chocolate;
+    text-align: center;
+    text-align: center;
+    color: blue;
+}
+#banner{
+    width: 100%;
+    
+}
+.loc{
+    color:blueviolet;
+    font-style: italic;
+}
+#about{
+    display:flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+#des{
+    width:50%;
+    padding: 0 8px;
+}
+#teamimg{
+    width:50%;
+}
+#teamimgs{
+    width: 100%;
+   
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+.job-role{
+    margin-bottom: 0;
+}
+.apply{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: blue;
+
+}
+a:hover{
+    color:orchid;
+}
+#footer{
+    background-color: aqua;
+    padding: 8px;
+    margin-top: 16px;
+    text-align: center;
+}
+#footer-links{
+    list-style: none;
+}
+#footer-links li{
+    display: inline;
+    margin: 0 16px;
+}
+#copyright{
+    color: brown;
+}
+#jobs-table{
+    text-align: center;
+    border: 1px solid orangered;
+    width: 100%;
+    border-collapse: collapse;
+}
+.job-row-table th{
+    text-align: center;
+    border: 1px solid orangered;
+    padding: 8px;
+    background-color: brown;
+   
+}
+.job-col-table td{
+    text-align: center;
+    border: 1px solid orangered;
+    padding: 8px;
+   
+}
+#jobs-table tr:nth-child(odd){
+    background-color: antiquewhite;
+}
+#jobs-table tr:nth-child(even){
+    background-color:aqua;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+#form-appli div{
+    margin-top: 16px;
+}
+#form-appli label{
+    font-size: 1.23rem;
+    text-transform: uppercase;
+}
+.formapplivation input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.23rem;
+    border: 5px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 8px;
+}
+.formapplivation select{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.23rem;
+    border: 5px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 8px;
+
+}
+.formapplivation textarea{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    border: 5px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 8px;
+    width: 600px;
+    height: 150px;
+}
+#form-appli input[type="range"] {
+   
+    accent-color:  hotpink;
+}
+.formapplivation input[type="submit"]{
+    background-color: rgb(151, 151, 243);
+}
+.formapplivation input[type="reset"]{
+    background-color: rgb(243, 151, 172);
+}
+#form-appli input[type="radio"] {
+
+    accent-color: red;
+
+}
+#form-appli input[type="checkbox"] {
+
+    accent-color: red;
+    width: 16px;
+    height: 20px;
+    
+
+}
+#form-appli input[type="checkbox"]:hover{
+    background-color: blue;
+    accent-color: green;
+}
+
+#subre{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.formapplivation input[type="submit"],.formapplivation input[type="reset"]{
+    display: inline-block;
+    margin-right: 10px;
+}
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+
